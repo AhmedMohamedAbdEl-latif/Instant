@@ -1,0 +1,619 @@
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* background-color: black; */
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.nav {
+    width: 100%;
+    height: 36px;
+    text-align: left !important;
+    background-color: black !important;
+}
+
+.nav .bar-item-home {
+    float: left;
+    text-decoration: none;
+    background-color: rgb(0, 139, 124) !important;
+    color: white;
+    padding: 6px 15px;
+    width: auto;
+    /* font-size: 17px; */
+}
+
+.nav .bar-item-home i {
+    color: white;
+}
+
+.nav .tools .bar-item {
+
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    width: auto;
+}
+
+.nav .tools .bar-item:hover {
+    cursor: pointer;
+    color: rgb(0, 139, 124);
+}
+
+.nav .bar-item-search {
+
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    width: auto;
+}
+
+.nav .bar-item-search:hover {
+    cursor: pointer;
+    background-color: rgb(0, 139, 124);
+}
+
+.container {
+    width: 100%;
+}
+
+.container .image {
+    width: 100%;
+    height: 570px;
+
+}
+
+.container .image img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+}
+
+.container .team {
+    width: 100%;
+    padding: 65px 0px;
+    text-align: center;
+
+}
+
+.container .team h1 {
+    color: black;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.container .team p {
+    color: black;
+    margin: 10px 0px;
+}
+
+.container .team .team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container .team .team-members .boss-man {
+    width: 28%;
+}
+
+.container .team .team-members .boss-man h2 {
+    color: black;
+}
+
+.container .team .team-members .boss-man p {
+    color: black;
+}
+
+.container .team .team-members .boss-man img {
+    width: 45%;
+    border-radius: 50%;
+}
+
+/* ========================================= */
+/* leader */
+/* ========================================= */
+.container .team .team-members .leader {
+    width: 28%;
+}
+
+.container .team .team-members .leader h2 {
+    color: black;
+}
+
+.container .team .team-members .leader p {
+    color: black;
+}
+
+.container .team .team-members .leader img {
+    width: 45%;
+    border-radius: 50%;
+}
+
+/* ========================================= */
+/* Me */
+/* ========================================= */
+.container .team .team-members .me {
+    width: 28%;
+}
+
+.container .team .team-members .me h2 {
+    color: black;
+}
+
+.container .team .team-members .me p {
+    color: black;
+}
+
+.container .team .team-members .me img {
+    width: 45%;
+    border-radius: 50%;
+}
+
+.work {
+    padding: 65px 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(29, 34, 35);
+
+}
+
+.work .our-work-AboutUs {
+    width: 22%;
+}
+
+.work .our-work-AboutUs h3 {
+    color: white;
+}
+
+.work .our-work-AboutUs p {
+    color: white;
+    font-size: 11px;
+}
+
+.work .our-work {
+    width: 22%;
+    text-align: center;
+    background-color: white;
+}
+
+.work .our-work img {
+    width: 100%;
+}
+
+.work .our-work h4 {
+    color: black;
+}
+
+.work .our-work p {
+    color: black;
+    font-size: 11px;
+}
+
+/* ============================================== */
+/* End Work Page */
+/* ============================================== */
+
+.price {
+    padding: 65px 0px;
+    text-align: center;
+}
+
+.price h5 {
+    color: black;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.price p {
+    color: black;
+    margin: 10px 0px;
+}
+
+.price .courses {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.price .courses .diploma {
+    width: 31%;
+    height: 500px;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.price .courses .diploma ul {
+    list-style-type: none;
+    border-color: rgb(62, 70, 72);
+    border: 1px solid #ccc;
+    /* width: 88%; */
+    height: 100%;
+    padding: 0px 0px;
+}
+
+.price .courses .diploma ul li {
+    padding: 8px 16px;
+}
+
+.price .courses .diploma .top {
+    border-bottom: 1px solid #ddd;
+}
+
+.price .courses .diploma .top .top-title {
+    font-size: 24px !important;
+}
+
+.price .courses .diploma .middle {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.price .courses .diploma .middle5 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 31px;
+}
+
+.price .courses .diploma .middle5 h6 {
+    color: black;
+    letter-spacing: 4px;
+    font-size: 19px;
+    margin: 9px 0px;
+}
+
+.price .courses .diploma .middle5 h6 i {
+    font-size: 18px;
+}
+
+.price .courses .diploma .middle5 span {
+    color: black;
+    font-size: 13px;
+}
+
+.price .courses .diploma .button {
+    background-color: #f0f0f0;
+}
+
+.price .courses .diploma .button a {
+    color: black;
+    background-color: rgb(0, 139, 124);
+    border-bottom: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.price .courses .diploma .button a i {
+    padding-right: 2px;
+}
+
+/* =========================================================== */
+/* End Price Page */
+/* =========================================================== */
+.contact {
+    padding: 65px 10px;
+    background-color: rgb(29, 34, 35);
+}
+
+.contact .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.contact .row .details {
+    width: 47%;
+}
+
+.contact .row .details h9 {
+    color: white;
+}
+
+.contact .row .details p {
+    color: white;
+}
+
+.contact .row .details p i {
+    padding: 0px 2px;
+    color: rgb(0, 139, 124);
+}
+
+.contact .row .info {
+    width: 47%;
+}
+
+.contact .row .info .name {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.contact .row .info .name label {
+    color: white;
+}
+
+.contact .row .info .name input {
+    background-color: black;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+.contact .row .info .email {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.contact .row .info .email label {
+    color: white;
+}
+
+.contact .row .info .email input {
+    background-color: black;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+.contact .row .info .message {
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.contact .row .info .message label {
+    color: white;
+}
+
+.contact .row .info .message input {
+    background-color: black;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+.check {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.contact .row .info label {
+    color: white;
+}
+
+.contact .row .info button {
+    float: right;
+    background-color: rgb(0, 139, 124);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+/* =========================================================== */
+/* End Contact Page */
+/* =========================================================== */
+
+.end {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.end h10 {
+    color: black;
+
+}
+
+.end .links {
+    height: 60px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 35px;
+
+}
+
+.end .links a {
+    width: 42px !important;
+    height: 42px !important;
+    background-color: rgb(0, 139, 124);
+    color: black;
+    background-image: initial;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 5px;
+
+}
+
+.end a i {
+    margin: 11px;
+}
+
+.end p {
+    color: black;
+}
+
+.end p a {
+
+    text-decoration: none;
+    color: rgb(0, 139, 124);
+}
+
+
+
+/* ============================================================================== */
+
+/* Media Query */
+
+/* ============================================================================== */
+
+
+@media(max-width:600px) {
+    .nav {
+        height: 36px;
+    }
+
+    .nav .bar-item-home {
+        padding: 6px 15px;
+        width: auto;
+
+    }
+
+    .nav .tools {
+        display: none;
+
+    }
+
+    .nav .bar-item-search {
+        display: none;
+    }
+
+    .nav .toggler {
+        width: 15%;
+        float: right;
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+
+    }
+
+    .nav .toggler i {
+        color: white;
+
+    }
+    .container .image {
+        height: 260px;
+
+    }
+
+    .container .team {
+        padding: 30px 0px;
+    }
+
+    .container .team .team-members .boss-man {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    /* ========================================= */
+    /* leader */
+    /* ========================================= */
+    .container .team .team-members .leader {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    /* ========================================= */
+    /* Me */
+    /* ========================================= */
+    .container .team .team-members .me {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .work {
+        padding: 14px 0px 0px 0px;
+    }
+
+    .work .our-work-AboutUs {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work .our-work {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        padding: 30px 0px !important;
+    }
+
+    .price h5 {
+        font-size: 35px;
+    }
+
+    .price .courses {
+        width: 100%;
+    }
+
+    .price .courses .diploma {
+        width: 90%;
+        height: 500px;
+        margin-bottom: 15px;
+    }
+
+    .price .courses .diploma ul li {
+        padding: 8px 16px;
+    }
+
+    .price .courses .diploma .top .top-title {
+        font-size: 19px !important;
+    }
+
+
+    .price .courses .diploma .middle5 {
+        padding-bottom: 25px;
+    }
+
+    .price .courses .diploma .middle5 h6 {
+        letter-spacing: 2px;
+        font-size: 17px;
+
+    }
+
+    .price .courses .diploma .middle5 h6 i {
+        font-size: 17px;
+    }
+
+    .price .courses .diploma .middle5 span {
+        font-size: 12px;
+    }
+
+    /* .price .courses .diploma .button a {
+        padding: 8px 16px;
+    
+    }
+    
+    .price .courses .diploma .button a i {
+        padding-right: 2px;
+    } */
+    .contact {
+        padding: 30px 10px;
+    }
+
+
+    .contact .row .details {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .contact .row .info {
+        width: 90%;
+        margin: auto;
+    }
+
+
+}
