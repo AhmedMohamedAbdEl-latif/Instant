@@ -175,6 +175,7 @@ body {
 .work .our-work-AboutUs p {
     color: white;
     font-size: 11px;
+    margin: 5px;
 }
 
 .work .our-work {
@@ -194,6 +195,7 @@ body {
 .work .our-work p {
     color: black;
     font-size: 11px;
+    margin: 10px;
 }
 
 /* ============================================== */
@@ -260,6 +262,10 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+/* .price .courses .diploma .middle p{
+    font-size: 15px;
+} */
+
 .price .courses .diploma .middle5 {
     border-bottom: 1px solid #ddd;
     padding-bottom: 31px;
@@ -324,6 +330,18 @@ body {
 
 .contact .row .details h9 {
     color: white;
+    position: relative;
+}
+
+ h9::before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 139, 124);
+    top: 100%;
+    right: 0%;
 }
 
 .contact .row .details p {
@@ -354,6 +372,7 @@ body {
     border: 1px solid #ddd;
 }
 
+
 .contact .row .info .email {
     width: 100%;
     margin: 15px 0px;
@@ -382,6 +401,7 @@ body {
     background-color: black;
     color: white;
     border: 1px solid #ddd;
+    height: 50px;
 }
 
 .check {
@@ -416,7 +436,7 @@ body {
 
 .end h10 {
     color: black;
-
+    font-size: 20px;
 }
 
 .end .links {
@@ -445,6 +465,7 @@ body {
 
 .end a i {
     margin: 11px;
+    color: white;
 }
 
 .end p {
@@ -499,6 +520,7 @@ body {
         color: white;
 
     }
+
     .container .image {
         height: 260px;
 
@@ -560,7 +582,7 @@ body {
 
     .price .courses .diploma {
         width: 90%;
-        height: 500px;
+        height: 477px;
         margin-bottom: 15px;
     }
 
@@ -572,6 +594,9 @@ body {
         font-size: 19px !important;
     }
 
+    .price .courses .diploma .middle p {
+        font-size: 12px;
+    }
 
     .price .courses .diploma .middle5 {
         padding-bottom: 25px;
@@ -616,4 +641,7 @@ body {
     }
 
 
+    .contact .row .info>input {
+        box-shadow: rgb(0, 139, 124);
+    }
 }
