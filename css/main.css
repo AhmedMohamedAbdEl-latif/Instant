@@ -582,7 +582,7 @@ body {
 
     .price .courses .diploma {
         width: 90%;
-        height: 447px;
+        height: 457px;
         margin-bottom: 15px;
     }
 
@@ -617,14 +617,6 @@ body {
     }
 
     
-    /* .price .courses .diploma .button a {
-        padding: 8px 16px;
-    
-    }
-    
-    .price .courses .diploma .button a i {
-        padding-right: 2px;
-    } */
     .contact {
         padding: 30px 10px;
     }
@@ -644,5 +636,11 @@ body {
 
     .contact .row .info>input {
         box-shadow: rgb(0, 139, 124);
+    }
+}
+
+@media(max-width:380px){
+    .price .courses .diploma {
+        height: 447px;
     }
 }
