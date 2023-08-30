@@ -555,7 +555,7 @@ body {
     }
 
     .work {
-        padding: 14px 0px 0px 0px;
+        padding: 14px 0px 20px 0px;
     }
 
     .work .our-work-AboutUs {
@@ -582,7 +582,7 @@ body {
 
     .price .courses .diploma {
         width: 90%;
-        height: 477px;
+        height: 447px;
         margin-bottom: 15px;
     }
 
@@ -595,7 +595,7 @@ body {
     }
 
     .price .courses .diploma .middle p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .price .courses .diploma .middle5 {
@@ -616,6 +616,7 @@ body {
         font-size: 12px;
     }
 
+    
     /* .price .courses .diploma .button a {
         padding: 8px 16px;
     
