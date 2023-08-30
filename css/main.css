@@ -229,69 +229,73 @@ body {
     margin-top: 20px;
 }
 
-.price .courses .diploma {
+
+/* ================================================================= */
+
+/* Diploma 1 */
+
+/* ================================================================= */
+
+
+
+.price .courses .diploma1 {
     width: 31%;
     height: 500px;
     align-items: center !important;
     text-align: center !important;
 }
 
-.price .courses .diploma ul {
+.price .courses .diploma1 ul {
     list-style-type: none;
     border-color: rgb(62, 70, 72);
     border: 1px solid #ccc;
-    /* width: 88%; */
     height: 100%;
     padding: 0px 0px;
 }
 
-.price .courses .diploma ul li {
+.price .courses .diploma1 ul li {
     padding: 8px 16px;
 }
 
-.price .courses .diploma .top {
+.price .courses .diploma1 .top {
     border-bottom: 1px solid #ddd;
 }
 
-.price .courses .diploma .top .top-title {
+.price .courses .diploma1 .top .top-title {
     font-size: 24px !important;
 }
 
-.price .courses .diploma .middle {
+.price .courses .diploma1 .middle {
     padding: 10px 0px;
     border-bottom: 1px solid #ddd;
 }
 
-/* .price .courses .diploma .middle p{
-    font-size: 15px;
-} */
-
-.price .courses .diploma .middle5 {
+.price .courses .diploma1 .middle5 {
     border-bottom: 1px solid #ddd;
     padding-bottom: 31px;
 }
 
-.price .courses .diploma .middle5 h6 {
+.price .courses .diploma1 .middle5 h6 {
     color: black;
     letter-spacing: 4px;
     font-size: 19px;
     margin: 9px 0px;
 }
 
-.price .courses .diploma .middle5 h6 i {
+.price .courses .diploma1 .middle5 h6 i {
     font-size: 18px;
 }
 
-.price .courses .diploma .middle5 span {
+.price .courses .diploma1 .middle5 span {
     color: black;
     font-size: 13px;
 }
 
-.price .courses .diploma .button {
+.price .courses .diploma1 .button {
     background-color: #f0f0f0;
 }
 
-.price .courses .diploma .button a {
+.price .courses .diploma1 .button a {
     color: black;
     background-color: rgb(0, 139, 124);
     border-bottom: none;
@@ -305,9 +309,179 @@ body {
     white-space: nowrap;
 }
 
-.price .courses .diploma .button a i {
+.price .courses .diploma1 .button a i {
     padding-right: 2px;
 }
+
+
+
+/* ================================================================= */
+
+/* Diploma 2 */
+
+/* ================================================================= */
+
+.price .courses .diploma2 {
+    width: 31%;
+    height: 500px;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.price .courses .diploma2 ul {
+    list-style-type: none;
+    border-color: rgb(62, 70, 72);
+    border: 1px solid #ccc;
+    height: 100%;
+    padding: 0px 0px;
+}
+
+.price .courses .diploma2 ul li {
+    padding: 8px 16px;
+}
+
+.price .courses .diploma2 .top {
+    border-bottom: 1px solid #ddd;
+}
+
+.price .courses .diploma2 .top .top-title {
+    font-size: 24px !important;
+}
+
+.price .courses .diploma2 .middle {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.price .courses .diploma2 .middle5 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 31px;
+}
+
+.price .courses .diploma2 .middle5 h6 {
+    color: black;
+    letter-spacing: 4px;
+    font-size: 19px;
+    margin: 9px 0px;
+}
+
+.price .courses .diploma2 .middle5 h6 i {
+    font-size: 18px;
+}
+
+.price .courses .diploma2 .middle5 span {
+    color: black;
+    font-size: 13px;
+}
+
+.price .courses .diploma2 .button {
+    background-color: #f0f0f0;
+}
+
+.price .courses .diploma2 .button a {
+    color: black;
+    background-color: rgb(0, 139, 124);
+    border-bottom: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.price .courses .diploma2 .button a i {
+    padding-right: 2px;
+}
+
+
+
+
+/* ================================================================= */
+
+/* Diploma 3 */
+
+/* ================================================================= */
+
+.price .courses .diploma3 {
+    width: 31%;
+    height: 500px;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.price .courses .diploma3 ul {
+    list-style-type: none;
+    border-color: rgb(62, 70, 72);
+    border: 1px solid #ccc;
+    height: 100%;
+    padding: 0px 0px;
+}
+
+.price .courses .diploma3 ul li {
+    padding: 8px 16px;
+}
+
+.price .courses .diploma3 .top {
+    border-bottom: 1px solid #ddd;
+}
+
+.price .courses .diploma3 .top .top-title {
+    font-size: 24px !important;
+}
+
+.price .courses .diploma3 .middle {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.price .courses .diploma3 .middle5 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 31px;
+}
+
+.price .courses .diploma3 .middle5 h6 {
+    color: black;
+    letter-spacing: 4px;
+    font-size: 19px;
+    margin: 9px 0px;
+}
+
+.price .courses .diploma3 .middle5 h6 i {
+    font-size: 18px;
+}
+
+.price .courses .diploma3 .middle5 span {
+    color: black;
+    font-size: 13px;
+}
+
+.price .courses .diploma3 .button {
+    background-color: #f0f0f0;
+}
+
+.price .courses .diploma3 .button a {
+    color: black;
+    background-color: rgb(0, 139, 124);
+    border-bottom: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.price .courses .diploma3 .button a i {
+    padding-right: 2px;
+}
+
+
+
 
 /* =========================================================== */
 /* End Price Page */
@@ -333,7 +507,7 @@ body {
     position: relative;
 }
 
- h9::before {
+h9::before {
 
     content: "";
     position: absolute;
@@ -580,43 +754,141 @@ body {
         width: 100%;
     }
 
-    .price .courses .diploma {
+    /* ================================================================= */
+
+    /* Diploma 1 */
+
+    /* ================================================================= */
+
+
+    .price .courses .diploma1 {
         width: 90%;
         height: 457px;
         margin-bottom: 15px;
     }
 
-    .price .courses .diploma ul li {
+    .price .courses .diploma1 ul li {
         padding: 8px 16px;
     }
 
-    .price .courses .diploma .top .top-title {
+    .price .courses .diploma1 .top .top-title {
         font-size: 19px !important;
     }
 
-    .price .courses .diploma .middle p {
+    .price .courses .diploma1 .middle p {
         font-size: 10px;
     }
 
-    .price .courses .diploma .middle5 {
+    .price .courses .diploma1 .middle5 {
         padding-bottom: 25px;
     }
 
-    .price .courses .diploma .middle5 h6 {
+    .price .courses .diploma1 .middle5 h6 {
         letter-spacing: 2px;
         font-size: 17px;
 
     }
 
-    .price .courses .diploma .middle5 h6 i {
+    .price .courses .diploma1 .middle5 h6 i {
         font-size: 17px;
     }
 
-    .price .courses .diploma .middle5 span {
+    .price .courses .diploma1 .middle5 span {
         font-size: 12px;
     }
 
-    
+
+    /* ================================================================= */
+
+    /* Diploma 2 */
+
+    /* ================================================================= */
+
+
+
+
+    .price .courses .diploma2 {
+        width: 90%;
+        height: 457px;
+        margin-bottom: 15px;
+    }
+
+    .price .courses .diploma2 ul li {
+        padding: 8px 16px;
+    }
+
+    .price .courses .diploma2 .top .top-title {
+        font-size: 19px !important;
+    }
+
+    .price .courses .diploma2 .middle p {
+        font-size: 10px;
+    }
+
+    .price .courses .diploma2 .middle5 {
+        padding-bottom: 25px;
+    }
+
+    .price .courses .diploma2 .middle5 h6 {
+        letter-spacing: 2px;
+        font-size: 17px;
+
+    }
+
+    .price .courses .diploma2 .middle5 h6 i {
+        font-size: 17px;
+    }
+
+    .price .courses .diploma2 .middle5 span {
+        font-size: 12px;
+    }
+
+
+
+
+
+    /* ================================================================= */
+
+    /* Diploma 3 */
+
+    /* ================================================================= */
+
+    .price .courses .diploma3 {
+        width: 90%;
+        height: 445px;
+        margin-bottom: 15px;
+    }
+
+    .price .courses .diploma3 ul li {
+        padding: 8px 16px;
+    }
+
+    .price .courses .diploma3 .top .top-title {
+        font-size: 19px !important;
+    }
+
+    .price .courses .diploma3 .middle p {
+        font-size: 10px;
+    }
+
+    .price .courses .diploma3 .middle5 {
+        padding-bottom: 25px;
+    }
+
+    .price .courses .diploma3 .middle5 h6 {
+        letter-spacing: 2px;
+        font-size: 17px;
+
+    }
+
+    .price .courses .diploma3 .middle5 h6 i {
+        font-size: 17px;
+    }
+
+    .price .courses .diploma3 .middle5 span {
+        font-size: 12px;
+    }
+
     .contact {
         padding: 30px 10px;
     }
@@ -639,8 +911,3 @@ body {
     }
 }
 
-@media(max-width:380px){
-    .price .courses .diploma {
-        height: 447px;
-    }
-}
